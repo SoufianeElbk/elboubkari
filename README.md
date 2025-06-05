@@ -1,24 +1,14 @@
-# Welcome to your Lovable project
+# Soufiane Elboubkari - Portfolio
 
 ## Project info
 
-**URL**: https://lovable.dev/projects/ac1b9627-8de1-46a1-8240-a29f4a2b9dfa
+Personal portfolio website showcasing my skills, projects, and experience as a Software Engineering Student.
 
-## How can I edit this code?
+## How to run this project locally
 
-There are several ways of editing your application.
+**Prerequisites**
 
-**Use Lovable**
-
-Simply visit the [Lovable Project](https://lovable.dev/projects/ac1b9627-8de1-46a1-8240-a29f4a2b9dfa) and start prompting.
-
-Changes made via Lovable will be committed automatically to this repo.
-
-**Use your preferred IDE**
-
-If you want to work locally using your own IDE, you can clone this repo and push changes. Pushed changes will also be reflected in Lovable.
-
-The only requirement is having Node.js & npm installed - [install with nvm](https://github.com/nvm-sh/nvm#installing-and-updating)
+You need to have Node.js & npm installed - [install with nvm](https://github.com/nvm-sh/nvm#installing-and-updating)
 
 Follow these steps:
 
@@ -31,7 +21,7 @@ cd <YOUR_PROJECT_NAME>
 
 # Step 3: Install the necessary dependencies.
 npm i
-
+push the rest of 
 # Step 4: Start the development server with auto-reloading and an instant preview.
 npm run dev
 ```
@@ -60,14 +50,13 @@ This project is built with:
 - shadcn-ui
 - Tailwind CSS
 
-## How can I deploy this project?
+## How to deploy this project
 
-Simply open [Lovable](https://lovable.dev/projects/ac1b9627-8de1-46a1-8240-a29f4a2b9dfa) and click on Share -> Publish.
+You can deploy this project to any static hosting service like:
 
-## Can I connect a custom domain to my Lovable project?
+- **Vercel**: Connect your GitHub repository and deploy automatically
+- **Netlify**: Drag and drop the `dist` folder or connect via Git
+- **GitHub Pages**: Use GitHub Actions to build and deploy
+- **Firebase Hosting**: Use Firebase CLI to deploy
 
-Yes, you can!
-
-To connect a domain, navigate to Project > Settings > Domains and click Connect Domain.
-
-Read more here: [Setting up a custom domain](https://docs.lovable.dev/tips-tricks/custom-domain#step-by-step-guide)
+Build the project first with `npm run build` then deploy the `dist` folder.
