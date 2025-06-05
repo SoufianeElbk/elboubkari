@@ -49,14 +49,6 @@ const Index = () => {
               />
               
               <NavigationCard
-                icon={<Briefcase />}
-                title="Job Applications"
-                description="View job offers, resumes, and cover letters"
-                onClick={() => navigate('/jobs')}
-                className="w-full"
-              />
-
-              <NavigationCard
                 icon={<Eye />}
                 title="Hidden Job Market"
                 description="Discover unadvertised opportunities"
@@ -99,7 +91,7 @@ const Index = () => {
             {/* Center Column - Profile Image */}
             <div className="flex flex-col items-center animate-scale-in order-1 lg:order-2 mt-16 sm:mt-12 md:mt-8 lg:mt-0" style={{ animationDelay: '0.4s' }}>
               <ProfileImage responsive={true} />
-              <div className="mt-4 sm:mt-6 text-center">
+              <div className="mt-4 sm:mt-6 text-center mb-6">
                 <h2 className="text-lg sm:text-xl md:text-2xl lg:text-3xl font-bold text-gray-900 dark:text-white mb-2">
                   SOUFIANE ELBOUBKARI
                 </h2>
@@ -107,6 +99,7 @@ const Index = () => {
                   Software Engineering Student <br></br> ENSET Mohammedia
                 </p>
               </div>
+              <ContactPopup />
             </div>
 
             {/* Right Column - Navigation Cards */}
@@ -119,7 +112,15 @@ const Index = () => {
                 className="w-full"
               />
               
-              <ContactPopup />
+              {/* <ContactPopup /> */}
+
+              <NavigationCard
+                icon={<Briefcase />}
+                title="Job Applications"
+                description="View job offers, resumes, and cover letters"
+                onClick={() => navigate('/jobs')}
+                className="w-full"
+              />
 
               <NavigationCard
                 icon={<Trophy />}
