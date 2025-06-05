@@ -112,7 +112,6 @@ const Index = () => {
                 className="w-full"
               />
               
-              {/* <ContactPopup /> */}
 
               <NavigationCard
                 icon={<Briefcase />}

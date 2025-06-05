@@ -105,7 +105,7 @@ export default function GEIW2025() {
   ];
 
   return (
-    <div className="min-h-screen bg-gradient-to-br from-blue-50 to-indigo-100 dark:from-gray-900 dark:to-blue-950 p-8">
+    <div className="min-h-screen bg-gradient-to-br from-blue-50 to-indigo-100 dark:from-gray-900 dark:to-blue-950">
       {/* Header */}
       <div className="flex justify-between items-center p-4 lg:px-0 lg:max-w-6xl lg:mx-auto">
         <div className="flex items-center space-x-3">
