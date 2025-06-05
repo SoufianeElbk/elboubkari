@@ -194,7 +194,7 @@ export default function Portfolio() {
 
         {/* About Section */}
         <section id="about" className="mb-16">
-          <div className="p-8">
+          <div className="px-4">
             <div className="grid md:grid-cols-2 gap-8 items-center">
               <div>
                 <p className="mt-6 text-gray-700 dark:text-gray-300 mb-4 leading-relaxed text-xl font-semibold text-justify">
@@ -223,7 +223,7 @@ export default function Portfolio() {
 
         {/* Education Section */}
         <section id="education" className="mb-16">
-          <div className="p-8">
+          <div className="px-4">
             <h2 className="text-3xl font-bold text-blue-900 dark:text-blue-100 mb-8 text-center">Education</h2>
             <div className="space-y-6">
               {education.map((edu, index) => (
@@ -247,7 +247,7 @@ export default function Portfolio() {
 
         {/* Experience Section */}
         <section id="experience" className="mb-16">
-          <div className="p-8">
+          <div className="px-4">
             <h2 className="text-3xl font-bold text-blue-900 dark:text-blue-100 mb-8 text-center">Experience</h2>
             <div className="space-y-6">
               {experience.map((exp, index) => (
@@ -271,7 +271,7 @@ export default function Portfolio() {
 
         {/* Skills Section */}
         <section id="skills" className="mb-16">
-          <div className="p-8">
+          <div className="px-4">
             <h2 className="text-3xl font-bold text-blue-900 dark:text-blue-100 mb-8 text-center">Knowledge and Skills</h2>
             <div className="space-y-8">
               {skillCategories.map((category, categoryIndex) => (
@@ -299,7 +299,7 @@ export default function Portfolio() {
 
         {/* Projects Section */}
         <section id="projects" className="mb-16">
-          <div className="p-8">
+          <div className="px-4">
             <h2 className="text-3xl font-bold text-blue-900 dark:text-blue-100 mb-8 text-center">Projects</h2>
             <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-6">
               {projects.map((project, index) => (
@@ -324,8 +324,8 @@ export default function Portfolio() {
         </section>
 
         {/* Contact Section */}
-        <section id="contact" className="mb-16">
-          <div className="p-8">
+        <section id="contact">
+          <div className="px-4">
             <h2 className="text-3xl font-bold text-blue-900 dark:text-blue-100 mb-8 text-center">Contact Me</h2>
             <div className="grid md:grid-cols-2 gap-8">
               <div>
@@ -334,31 +334,31 @@ export default function Portfolio() {
                   I'm always open to discussing new opportunities, interesting projects, or just having a conversation about technology and innovation. Feel free to reach out!
                 </p>
                 <div className="space-y-4">
-                  <div className="flex items-center space-x-3">
-                    <div className="w-10 h-10 bg-blue-100 dark:bg-blue-900 rounded-full flex items-center justify-center">
+                  <div className="flex flex-col sm:flex-row sm:items-center gap-3">
+                    <div className="w-10 h-10 bg-blue-100 dark:bg-blue-900 rounded-full flex items-center justify-center flex-shrink-0">
                       <Mail className="w-5 h-5 text-blue-600 dark:text-blue-400" />
                     </div>
-                    <div>
+                    <div className="w-full overflow-hidden">
                       <p className="font-medium text-gray-900 dark:text-white">Email</p>
-                      <p className="text-gray-600 dark:text-gray-400">elboubkarisoufiane03@gmail.com</p>
+                      <p className="text-gray-600 dark:text-gray-400 overflow-wrap-anywhere">elboubkarisoufiane03@gmail.com</p>
                     </div>
                   </div>
-                  <div className="flex items-center space-x-3">
-                    <div className="w-10 h-10 bg-blue-100 dark:bg-blue-900 rounded-full flex items-center justify-center">
+                  <div className="flex flex-col sm:flex-row sm:items-center gap-3">
+                    <div className="w-10 h-10 bg-blue-100 dark:bg-blue-900 rounded-full flex items-center justify-center flex-shrink-0">
                       <Phone className="w-5 h-5 text-blue-600 dark:text-blue-400" />
                     </div>
-                    <div>
+                    <div className="w-full overflow-hidden">
                       <p className="font-medium text-gray-900 dark:text-white">Phone</p>
-                      <p className="text-gray-600 dark:text-gray-400">+212 663057516</p>
+                      <p className="text-gray-600 dark:text-gray-400 overflow-wrap-anywhere">+212 663057516</p>
                     </div>
                   </div>
-                  <div className="flex items-center space-x-3">
-                    <div className="w-10 h-10 bg-blue-100 dark:bg-blue-900 rounded-full flex items-center justify-center">
+                  <div className="flex flex-col sm:flex-row sm:items-center gap-3">
+                    <div className="w-10 h-10 bg-blue-100 dark:bg-blue-900 rounded-full flex items-center justify-center flex-shrink-0">
                       <MapPin className="w-5 h-5 text-blue-600 dark:text-blue-400" />
                     </div>
-                    <div>
+                    <div className="w-full overflow-hidden">
                       <p className="font-medium text-gray-900 dark:text-white">Location</p>
-                      <p className="text-gray-600 dark:text-gray-400">Mohammedia, Morocco</p>
+                      <p className="text-gray-600 dark:text-gray-400 overflow-wrap-anywhere">Mohammedia, Morocco</p>
                     </div>
                   </div>
                 </div>
